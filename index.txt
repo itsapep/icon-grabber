@@ -1,0 +1,38 @@
+<html>
+<meta charset="utf-8">
+<title>Gimme The iCon</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<body> 
+ 
+<header>
+    <h1><a href="./">Gimme The iCon</a></h1>
+    <p>Retrieve full-sized icon artwork for all Android apps.</p>
+</header>
+
+<main>
+    <!-- input -->
+    <form class="submit">
+        <input type="url" placeholder="Play Store Link...">
+        <button type="submit">Gimme</button>
+    </form>  
+    <!-- ./input -->
+
+    <!-- output -->
+    <div class="wrapper">
+        <div class="content">
+            <p><strong>Enter a valid Google Play store link, i.e.</strong> <a href="https://play.google.com/store/apps/details?id=com.whatsapp">https://play.google.com/store/apps/details?id=com.whatsapp</a></p>
+            <img src="assets/img/squircle.png" alt="Icon placeholder" loading="lazy">
+        </div>
+    </div>
+    <!-- ./output -->
+</main>
+
+<!-- <footer></footer> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
